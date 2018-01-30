@@ -5,8 +5,8 @@ class Form {
   constructor(data = {}, options = {}) {
     this.editing = false
     this.spatieForm = new SpatieForm({}, options)
-    this.form = data
-    this.presentation = data
+    this.form = cloneDeep(data)
+    this.presentation = cloneDeep(data)
   }
 
   edit() {
