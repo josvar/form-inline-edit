@@ -1,6 +1,6 @@
 {
   "name": "form-inline-edit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Form inline edit",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
