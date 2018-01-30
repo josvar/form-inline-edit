@@ -32,9 +32,11 @@
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "clone-deep": "^3.0.1",
     "eslint": "^4.16.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "dependencies": {
+    "clone-deep": "^3.0.1",
     "form-backend-validation": "^2.3.0"
   }
 }
