@@ -1,0 +1,41 @@
+{
+  "name": "form-inline-edit",
+  "version": "0.1.0",
+  "description": "Form inline edit",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "rm -rf dist && babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josvar/form-inline-edit.git"
+  },
+  "keywords": [
+    "form",
+    "edit",
+    "inline",
+    "vue",
+    "laravel",
+    "form",
+    "validation",
+    "server"
+  ],
+  "author": "Josue Vargas <jos.vargasv@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josvar/form-inline-edit/issues"
+  },
+  "homepage": "https://github.com/josvar/form-inline-edit",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "clone-deep": "^3.0.1",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "form-backend-validation": "^2.3.0"
+  },
+  "dependencies": {}
+}
