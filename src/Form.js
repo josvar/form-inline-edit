@@ -1,4 +1,4 @@
-const SpatieForm = require('form-backend-validation')
+import { Form as SpatieForm } from 'form-backend-validation'
 const cloneDeep = require('clone-deep')
 
 class Form {
